@@ -1,0 +1,10 @@
+.about__container {
+    padding-top: 93px;
+    padding-bottom: 115px;
+}
+
+.about__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}

@@ -1,0 +1,39 @@
+.footer {
+    background-color: #FFFAF2;
+}
+
+.footer__container {
+    padding-top: 93px;
+    padding-bottom: 70px;
+}
+
+.footer__title {
+    margin-bottom: 51px;
+}
+
+.footer__lists {
+    display: flex;
+    gap: 308px;
+    padding-bottom: 100px;
+}
+
+.list {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer__mage-arrow-top--wrapper {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+

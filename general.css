@@ -1,0 +1,12 @@
+html,
+body {
+    font-family: "Libre Franklin";
+    font-size: 10px;
+    color: #333333;
+}
+
+.container {
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+}
