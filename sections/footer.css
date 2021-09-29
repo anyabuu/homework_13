@@ -13,6 +13,7 @@
 
 .footer__lists {
     display: flex;
+    flex-wrap: wrap;
     gap: 308px;
     padding-bottom: 100px;
 }
@@ -26,12 +27,49 @@
     gap: 14px;
 }
 
-.footer__mage-arrow-top--wrapper {
+.footer__image-arrow-top--wrapper {
     display: flex;
     justify-content: flex-end;
 }
 
 
+@media (max-width: 1220px) {
+    
+}
+
+
+@media (max-width: 767px) {
+
+    .footer__container {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
+    .footer__title {
+        margin-top: 0px;
+        margin-bottom: 25px;
+        font-weight: 600;
+        font-size: 2.4rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .list {
+        font-size: 1.4rem;
+        gap: 19px;
+    }
+
+    .footer__lists {
+        gap: 99px;
+        row-gap: 30px;
+        padding-bottom: 0px;
+    }
+
+    .footer__contacts--list--last {
+        gap: 7px;
+    }  
+
+}
 
 
 

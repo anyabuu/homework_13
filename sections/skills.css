@@ -1,5 +1,6 @@
 .skills {
     background-color: #FFFAF2;
+    width: auto;
 }
 
 .skills__container {
@@ -13,6 +14,7 @@
 
 .skills__content {
     display: flex;
+    flex-wrap: wrap;
     gap: 125px;
 }
 

@@ -3,12 +3,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-  
+    min-height: 100vh;
 }
 
 .hero__container {
     color:white;
-    min-height: 100vh; 
 }
 
 .header {
@@ -20,6 +19,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header__menu-img {
+    display: none;
 }
 
 .header__logo {
@@ -63,4 +66,67 @@
     font-size: 1.8rem;
     line-height: 1.16;
     text-decoration-line: underline;
+}
+
+@media (max-width: 1220px) {
+    .hero {
+        min-height: unset;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .hero {
+        min-height: 275px;
+        background-image: rgba(198, 108, 73, 0.4), 
+                        url(../images/mobile_background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        }
+
+    .header {
+        padding-top: 36px; 
+        padding-bottom: 50px;
+    }
+
+    .header__menu-img {
+        display: flex; 
+        width: 24px;
+        height: 24px;
+    }
+
+    .header__logo {
+        font-weight: 700;
+        font-size: 2.4rem; 
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .header__nav {
+        display: none;
+    }
+
+    .hero__title {
+        font-size: 2rem;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .hero__paragraph {
+        font-size: 1.3rem;
+        line-height: 1.1;
+        padding-bottom: 41px;
+        text-align: center;
+    }
+
+    .hero__link {
+        font-size: 1.3rem;
+        line-height: 1.1; 
+        display: flex; 
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
 }
