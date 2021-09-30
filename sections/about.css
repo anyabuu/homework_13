@@ -33,6 +33,10 @@
         margin-bottom: 19px;
     }
 
+    .about__content {
+        gap: 15px;
+    }
+
    .about__text {
        font-size: 1.2rem;
        line-height: 1.2;
