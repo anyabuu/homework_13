@@ -34,7 +34,15 @@
 
 
 @media (max-width: 1220px) {
-    
+    .footer__container {
+        padding-top: 70px;
+    }
+
+    .footer__lists {
+        gap: 23%;
+        padding-bottom: 50px;
+    }
+
 }
 
 
@@ -48,10 +56,6 @@
     .footer__title {
         margin-top: 0px;
         margin-bottom: 25px;
-        font-weight: 600;
-        font-size: 2.4rem;
-        line-height: 1.2;
-        text-align: center;
     }
 
     .list {
@@ -68,9 +72,8 @@
     .footer__contacts--list--last {
         gap: 7px;
     } 
-    
-    
 
+    
 }
 
 
